@@ -73,9 +73,10 @@ function parse(d) {
         return /\S/.test(str);
     });
     console.log(smallArray)
-    for (var i = 0; i <smallArray.length ; i++) {
-        //console.log(smallArray[i])
+    /*for (var i = 0; i <smallArray.length ; i++) {
+            console.log(smallArray[i])
     }
+    */
     //Pushing elements of smallArray into stackHolder
     console.log('*************************')
     for(var i = 0; i < smallArray.length ; i++) {
